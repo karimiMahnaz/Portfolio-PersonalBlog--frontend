@@ -185,7 +185,7 @@ const Projects = ({ projectsList }) => {
               <Button onClick= {()=> setPage(activePage + 1)}  variant="outline-success" aria-label="Next">
                 <span aria-hidden="true">&raquo;</span>
               </Button>
-            </li>
+            </li> 
           </ul>
         </nav>
 
