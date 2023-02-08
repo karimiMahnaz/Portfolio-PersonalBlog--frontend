@@ -1,0 +1,32 @@
+.container {
+    padding: 0;
+    margin:0;
+  }
+  
+  .main {
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: #212529;
+    color:white;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+      Bitstream Vera Sans Mono, Courier New, monospace;
+  }
+ 
+
+ .body{
+    
+    flex-direction: row;
+    
+}
+
+.card {
+ 
+  border: 0;
+  color:white;
+  vertical-align: middle;
+  border: none;
+  border-radius:10px;
+  box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
+  background-color: black;
+
+}

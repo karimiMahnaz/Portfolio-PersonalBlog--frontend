@@ -1,0 +1,17 @@
+
+ .menu{
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    flex-wrap: initial;
+    list-style: none;
+    align-content: space-around;
+    column-gap: 3rem;
+    justify-content: right;
+    align-items: right;
+    margin:auto;
+  }
+  
+  .subMenu:hover{
+    color:blue;
+  }
