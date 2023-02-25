@@ -1,0 +1,25 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^blog\.softestingca\.com$
+RewriteRule ^/?$ "https\:\/\/blog\.softestingca\.com\/" [R=301,L]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# DO NOT REMOVE. PARSWEBSERVER DEVELOPER CONFIGURATION BEGIN
+RewriteEngine On
+RewriteRule ^/?(.*)$ http://127.0.0.1:5619/$1 [P,L]
+# DO NOT REMOVE. PARSWEBSERVER DEVELOPER CONFIGURATION END

@@ -1,0 +1,14 @@
+.container{
+    color:white;
+   
+}
+.card{
+    max-width: 100vw;
+    background-color: black;
+    color:white;
+}
+
+.col{
+    background-color: black;
+    color:white;
+}

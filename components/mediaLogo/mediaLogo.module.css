@@ -1,0 +1,90 @@
+.media .contact{
+    font-family: Courier New, serif,  Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, monospace;
+  }
+  .media{
+      display:flex;
+      flex-direction:column;
+      row-gap: 1rem;
+      padding: 1rem;
+      margin-top: 1.1rem;
+        
+      }
+       
+        .email
+        {
+          cursor: pointer;
+          border:none;
+          border-radius: 5px;  
+        }
+    
+        .twitter
+        {  
+          cursor: pointer;
+          border:none;
+          background-color: white;
+          border-radius: 50%;
+          
+         }
+       .YouTube
+        { 
+          cursor: pointer;
+          border:none;
+         }
+        .linkedin
+        {
+          cursor: pointer;
+          border:none;
+          
+         }
+         
+        .facebook
+       {
+         cursor: pointer;
+         border:none;
+         
+        }
+        .instagram
+       {
+         cursor: pointer;
+         border:none;
+         
+        }
+        .github
+       {
+         cursor: pointer;
+         border:none;
+         
+        }
+       
+    
+        .line{ 
+            height: 3rem;
+            border-left: .1px solid yellow;
+            width:1rem;
+            margin: .9rem;
+            padding: .8rem;
+        }
+  
+        .contact{
+          height: 3.8rem;
+          width:3.1rem;
+          color:yellow;
+          margin: .7rem;
+         
+          transform: rotate(270deg);
+          -ms-transform:rotate(270deg); /* IE 9 */
+          -moz-transform:rotate(270deg); /* Firefox */
+          -webkit-transform:rotate(270deg); /* Safari and Chrome */
+          -o-transform:rotate(270deg); /* Opera */
+          
+        }
+        /* @media only screen and  (max-width: 767px)  {
+          .line{
+            display:none;
+          }
+          .contact{
+            display:none;
+          }
+        } */
+     

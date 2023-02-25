@@ -1,0 +1,71 @@
+
+  
+   .projectSection{
+    padding: 0;
+    margin:0;
+ 
+  } 
+
+  .projectList {
+    min-width: 100vw;
+    background-color: #212529;
+    color:#eaeaea;
+    height: unset;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+      Bitstream Vera Sans Mono, Courier New, monospace;
+  }
+ 
+ .body{
+
+    flex-direction: row;
+}
+
+.card {
+   width: 370px;
+   border: 0;
+   align-items: center;
+   align-content: center;
+   vertical-align: middle;
+   border: none;
+   transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+   overflow:hidden;
+   border-radius:10px;
+   min-height:450px;
+   box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
+   background-color: #212529;
+
+}
+.card_font_hover:hover{
+  font-size: larger;
+  cursor: pointer;
+}
+
+.img_shadow:hover{
+  box-shadow: 5px -5px black;
+}
+
+.text_img_slider {
+  position: absolute; 
+  text-align: center;
+  align-self: center;
+  color: black !important; 
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+      Bitstream Vera Sans Mono, Courier New, monospace;
+  opacity: 100;
+}
+
+.white_text {
+  color: white !important;
+  font-size: 1rem;
+  z-index: 5;
+  margin-top:150px;
+ 
+}
+
+.project_hover{
+    filter: brightness(0.2) !important;
+    vertical-align: middle;
+}
+.text_img_slider_hover{
+    opacity: 1 !important;
+}
