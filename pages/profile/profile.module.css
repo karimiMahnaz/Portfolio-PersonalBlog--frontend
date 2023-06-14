@@ -1,0 +1,321 @@
+.container {
+    padding: 0;
+    margin:0;
+    width: 70%;
+    height: 70%;
+    margin-bottom: 3rem;
+    font-family:  Courier New, serif, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+      Bitstream Vera Sans Mono, monospace;
+      backdrop-filter: blur(10px);
+
+    /* overflow-x: hidden; */
+    /*  -ms-overflow-style: none;   Internet Explorer 10+ */
+   /*  scrollbar-width: none;   Firefox */
+  }
+  
+  .main {
+    width: 70%;
+    height: 70%;
+    /* background-color: #212529; */
+    color:#eaeaea;
+    box-sizing: content-box;
+    backdrop-filter: blur(10px);
+  }
+
+ .container::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+ .body{
+  
+    width: 70vw;
+    position:static;
+    backdrop-filter: blur(10px);
+  
+}
+  
+.content{
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+    margin-top:1rem;
+    margin-left:2rem;
+    align-content:space-around;
+    justify-content: center;
+    row-gap:0;
+    backdrop-filter: blur(10px);
+   
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    backdrop-filter: blur(10px);
+  }
+  
+  .title:hover {
+    color: yellow;
+    text-decoration: none;
+  }
+  
+  .title a:hover,
+  .title a:focus,
+  .title a:active {
+    text-decoration: underline;
+  }
+  
+  .title {
+    margin: 0;
+    line-height: .8;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  @media (max-width: 580px) {
+    .title {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+
+    .description1 {
+      margin-top: 2rem;
+      font-size: 1.1rem;
+      font-weight: 200;
+    }
+  
+    .description {
+      margin-top: 3rem;
+      font-size: 1.1rem;
+      font-weight: 250;
+      color:yellow;
+    }
+    .exp , .emailad , .hline{ display:none;}
+  }
+
+  .hello,  
+  .title,
+  .description,
+  .description1 {
+    text-align: left;
+    font-family:  Courier New, serif, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, monospace;
+  }
+  
+  .hello,
+  .exp {
+   
+    line-height: .8;
+    font-size: 1rem;
+    text-align: left;
+    font-size: medium;
+    font-family:  Courier New, serif, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, monospace;
+  }
+
+  .description1 {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+
+  .description {
+    margin-top: 4rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color:yellow;
+  }
+  
+  .bullet{
+    color:yellow;
+    margin:0;
+    padding:0;
+    font-size:2rem;
+    display:inline-flex;
+  }
+
+  .ps{
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    flex-wrap: initial;
+    list-style: none;
+    align-content: space-around;
+    column-gap: 1rem;
+    margin-top: 7rem;
+  }
+  
+  .project:hover{color:blue}
+  .arrow:hover{color:blue}
+  
+  .arrow {
+   
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    margin-top:6px;
+    width:10px;
+    height:10px;
+    
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .code {
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-family: Courier New, serif, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+      Bitstream Vera Sans Mono,  monospace , Menlo;
+  }
+  
+  .grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+  }
+  
+  .btnW {
+    margin-top: 5vh;
+    text-align: center;
+    color: inherit;
+    border: 1px solid #837f7f;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    max-width: 250px;
+    font-size: large;
+    font-family:  Courier New, serif, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, monospace;
+  }
+  
+  .card:hover,
+  .card:focus,
+  .card:active {
+    color: #0070f3;
+    border-color: #0070f3;
+  }
+  
+  .card h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+  }
+  
+  .card p {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+  
+  .logo {
+    height: 1em;
+    margin-left: 0.5rem;
+  }
+  .project{
+    font-size:large;
+    font-family:  Courier New, serif, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, monospace;
+    margin-bottom: 2rem;
+  }
+
+  .avator{
+    margin-top:4rem;
+    border-radius: 50%;
+    text-align: left;
+  }
+  
+  .emailad{
+    margin-top:1rem;
+    font-size:large;
+    font-family:  Courier New, serif, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, monospace;
+  }
+  .emailad:hover{color:yellow}
+  
+  .certificateSection{
+      transition: all 9s ease;
+      transform: scale(1.1) translateX(-10px);
+  }
+  .certificatesList{
+    margin-top:3rem;
+    min-width: 70vw;
+    /* background-color: #212529; */
+    color:#eaeaea;
+    height: unset;
+   
+  }
+
+  
+  .certificateCard {
+    width: 180px;
+    border: 0;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    border: none;
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    overflow:hidden;
+    border-radius:10px;
+    min-height:200px;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
+    /* background-color: #212529;
+  */
+ }
+
+  .card_font_hover:hover{
+    font-size: larger;
+    cursor: pointer;
+  }
+  
+  .img_shadow:hover{
+    box-shadow: 5px -5px black;
+  }
+
+  .certificate{
+    filter: brightness(0.8) !important;
+    vertical-align: middle;
+    transition: transform 1s;
+}
+
+.certificate:hover {
+  transform: scale(1.1)  ;
+}
+
+.text_img_slider_hover{
+    opacity: 1 !important;
+}
+
+  @media (max-width: 600px) {
+    .grid {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .card,
+    .footer {
+      border-color: #212529;
+    }
+    .code {
+      background: #212529;
+    }
+    .logo img {
+      filter: invert(1);
+    }
+  }
+ 

@@ -1,0 +1,67 @@
+
+.container{
+    background-color: black;
+    width: 100vw;
+    /* height: 100vh; */
+  }
+  
+  .animate{
+    animation: shimmy 5s infinite;
+    animation-direction: alternate;
+  
+  }
+  
+  @keyframes shimmy {
+    0% {
+      transform: translate(0, 0);    
+    }
+    100% {
+      transform: translate(20px, 20px);
+    }
+  }
+  
+  .animate0{
+    animation: shimmy0 8s infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes shimmy0 {
+    0% {
+      transform: translate(5px, 70px);    
+    }
+    100% {
+      transform: translate(60, 0px);
+    }
+  }
+  
+  .animate1{
+    animation: shimmy1 6s infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes shimmy1 {
+    0% {
+      transform: translate(50px, 0px);    
+    }
+    100% {
+      transform: translate(20px, 50px);
+    }
+  }
+  
+  
+  .animate2{
+    animation: shimmy2 6s infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes shimmy2 {
+    0% {
+      transform: translate(0px, 40px);    
+    }
+    100% {
+      transform: translate(40px, 20px);
+    }
+  }
+  
+  
+   

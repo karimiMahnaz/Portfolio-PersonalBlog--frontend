@@ -3,16 +3,44 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "node functions/preBuildScripts/preBuildDev.js",
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "prebuild:dev": "node functions/preBuildScripts/preBuildDev.js",
+    "build:dev": "next build",
+    "prebuild:prod": "node functions/preBuildScripts/preBuildProd.js",
+    "build:prod": "next build",
+    "build": "NODE_ENV=production next build",
+    "start0": "next start",
+    "start": "NODE_ENV=production node server.js",
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint": "8.37.0",
-    "eslint-config-next": "13.2.4",
-    "next": "13.2.4",
+    "@react-three/drei": "^9.61.3",
+    "@react-three/fiber": "^8.12.0",
+    "@react-three/postprocessing": "^2.7.1",
+    "@types/json5": "^2.2.0",
+    "@types/three": "^0.150.1",
+    "antd": "^5.0.7",
+    "axios": "^1.2.2",
+    "bootstrap": "^5.2.3",
+    "classnames": "^2.3.2",
+    "dotenv": "^16.0.3",
+    "eslint": "8.29.0",
+    "eslint-config-next": "13.0.6",
+    "fs": "^0.0.1-security",
+    "next": "13.0.6",
+    "path": "^0.12.7",
+    "postprocessing": "^6.30.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.5",
+    "react-scroll-parallax": "^3.3.2",
+    "react-toastify": "^9.1.1",
+    "styled-components": "^6.0.0-rc.1",
+    "three": "^0.151.2"
+  },
+  "devDependencies": {
+    "sass": "^1.57.1"
   }
 }

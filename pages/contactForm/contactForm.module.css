@@ -1,0 +1,45 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top:3rem;
+    margin-left: 2rem;
+    padding:3rem;
+    justify-content: center;
+    row-gap:0;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background-color: black;
+    /* background-color: #212529; */
+}
+.item{
+    margin:5px;
+    max-width:30rem;
+}
+.dInput{
+    margin:5px;
+    max-width:30rem;
+}
+.dInput::-webkit-input-placeholder {color:white;} /* Chrome/Opera/Safari */
+.dInput::-moz-placeholder { color: white;} /* Firefox 19+ */
+.dInput:-ms-input-placeholder { color: white;} /* IE 10+ */
+.dInput:-moz-placeholder {color: white;}  /* Firefox 18- */
+
+.h6{
+    color:whitesmoke;
+    margin: 0;
+    margin-bottom:30px;
+    text-align: left;
+    padding: 0;
+}
+/* .input { */
+    /* color:#ffffff; */
+    /* background-color: #ffffff; */
+/* } */
+.btn{
+    margin:15px;
+    max-width:10rem;
+}
+.textWhite{
+    /* color:white; */
+   float: left;
+}

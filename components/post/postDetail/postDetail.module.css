@@ -1,0 +1,14 @@
+.container{
+    color:white;
+}
+
+.card{
+    max-width: 100vw;
+    background-color: black;
+    color:white;
+    backdrop-filter: blur(5px);
+}
+.col{
+    background-color: black;
+    color:white;
+}
